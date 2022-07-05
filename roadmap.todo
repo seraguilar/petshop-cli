@@ -68,11 +68,11 @@ literal que será exportado.
     não exista um cachorro com o id passado.
 
 ☐  Crie uma função chamada remover
-  . Essa função deve remover um cachorro do array de serviços.
+  . Essa função deve remover um cachorro do array e salvar no array de cachorros.
   . Ela deve recber um único parâmetro
-    + id  (Id cachorro do cachorro a ser vacinado)
+    + id  (Id cachorro do cachorro)
   . Essa função não deve retornar nada
   . Essa função deve imprimir uma mensagem "Cachorro inexistente"
-    não exista um cachorro com o id passado.
+    caso não exista um cachorro com o id passado.
       
     
