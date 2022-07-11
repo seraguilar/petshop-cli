@@ -1,6 +1,6 @@
 [
     {
-        "id":1,
+        "id": 1,
         "nome": "João Grilo",
         "castrado": true,
         "dataDeNascimento": "2020-08-21",
@@ -32,7 +32,7 @@
         ]
     },
     {
-        "id":2,
+        "id": 2,
         "nome": "Gertrudes",
         "castrado": false,
         "dataDeNascimento": "2015-08-10",
@@ -47,7 +47,7 @@
         "servicos": []
     },
     {
-        "id":3,
+        "id": 3,
         "nome": "Bronto",
         "castrado": true,
         "dataDeNascimento": "2016-10-19",
@@ -67,7 +67,7 @@
         ]
     },
     {
-        "id":4,
+        "id": 4,
         "nome": "Ataúlfo",
         "sexo": "m",
         "peso": 10,
@@ -82,7 +82,7 @@
         "servicos": []
     },
     {
-        "id":5,
+        "id": 5,
         "nome": "Godofredo",
         "sexo": "m",
         "castrado": true,
@@ -92,7 +92,7 @@
         "servicos": []
     },
     {
-        "id":6,
+        "id": 6,
         "nome": "Clementina",
         "sexo": "f",
         "castrado": false,
@@ -102,12 +102,72 @@
         "servicos": []
     },
     {
-        "id":7,
+        "id": 7,
         "nome": "Cancelado",
         "sexo": "m",
         "castrado": true,
         "dataDeNascimento": "2021-10-13",
         "peso": 1,
+        "vacinas": [
+            {
+                "nome": "antipulga",
+                "data": "2022-07-09T16:25:39.328Z"
+            },
+            {
+                "nome": "antigarrapato",
+                "data": "2022-7-3"
+            },
+            {
+                "nome": "antigarrapato",
+                "data": "2022-07-09T17:25:47.672Z"
+            }
+        ],
+        "servicos": [
+            {
+                "nome": "tosa",
+                "data": "2022-07-09T16:25:39.332Z"
+            }
+        ]
+    },
+    {
+        "nome": "perro",
+        "sexo": "m",
+        "castrado": true,
+        "dataDeNascimento": "2010-12-25",
+        "peso": 5,
+        "id": 9,
+        "vacinas": [
+            {
+                "nome": "antigarrapato",
+                "data": "2022-07-05"
+            },
+            {
+                "nome": "antirugas",
+                "data": "2022-01-05"
+            },
+            {
+                "nome": "transporte",
+                "data": "2021-03-15"
+            }
+        ],
+        "servicos": [
+                        {
+                "nome": "transporte",
+                "data": "2022-07-10T23:40:42.155Z"
+            },
+            {
+                "nome": "transporte",
+                "data": "2021-03-15"
+            }
+        ]
+    },
+    {
+        "nome": "perrito",
+        "sexo": "f",
+        "castrado": true,
+        "dataDeNascimento": "2010-06-15",
+        "peso": 15,
+        "id": 10,
         "vacinas": [],
         "servicos": []
     }

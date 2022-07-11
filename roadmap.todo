@@ -4,30 +4,30 @@ Elas já estão posicionadas no arquivo funcoes.js.
 As demais funções abaixo devem ser criadas como atributo do objeto
 literal que será exportado.
 
-☐ Implemente a função salvar.
+✔ Implemente a função salvar. @done(22-07-05 19:33)
   . Ela precisa salvar o conteúdo da constante cachorros no arquivo database/cachorros.json
   . Ela não precisa receber nenhum parâmetro nem retornar nada.
 
-☐ Implemente a função buscar.
+✔ Implemente a função  buscar. @done(22-07-06 17:53)
   . Essa função deve receber como parâmetro o id do cachorro buscado.
   . Essa função deve retornar o cachorro com o id buscado ou emitir um erro
     caso não exista cachorro com o id buscado.
 
-☐ Crie uma função chamada listar
+✔ Crie uma função chamada listar @done(22-07-06 17:53)
   . Essa função deve imprimir no console uma tabela
     com as informações dos cachorros cadastrados.
     Dica: experimente a função console.table
   . Essa função não deve receber nenhum parâmetro
   . Essa função não deve retornar nada.
 
-☐ Crie uma função chamada descrever
+✔ Crie uma função chamada descrever @done(22-07-06 18:57)
   . Essa deve imprimir todas as informações de um cachorro.
   . Ela deve receber o id do cachorro a ser descrito.
   . Ela não deve retornar nada como parâmetro.
   . Essa função deve imprimir uma mensagem `Não existe cachorro com o id ${id}`
     caso não exista nenhum cachorro com o id passado.
 
-☐ Crie uma função chamada adicionar
+✔ Crie uma função chamada adicionar @started(22-07-06 21:43) @done(22-07-09 12:59) @lasted(2d15h16m50s)
   . Essa função deve adicionar um novo cachorro no arquivo
     de cachorros.
   . Essa função deve receber como parâmetro um objeto literal com os seguintes campos
@@ -44,7 +44,7 @@ literal que será exportado.
   . Salve o array de cachorros em forma de JSON no arquivo
     database/cachorros.json
 
-☐ Crie uma função chamada vacinar.
+✔ Crie uma função chamada vacinar. @done(22-07-09 12:59)
   . Essa função deve adicionar um objeto literal com
     as informações de uma vacina (nome e data da aplicação) no array de vacinas de um cachorro.
   . Ela deve receber três parâmetros *nesta ordem*
@@ -56,7 +56,7 @@ literal que será exportado.
   . Essa função deve imprimir uma mensagem "Cachorro inexistente"
     não exista um cachorro com o id passado.
 
-☐ Crie uma função chamada atribuirServico
+✔ Crie uma função chamada atribuirServico @done(22-07-09 12:59)
   . Essa função deve adicionar um serviço ao array de serviços
     de um cachorro
   . Ela deve receber três parâmetros *nesta ordem*
@@ -67,7 +67,7 @@ literal que será exportado.
   . Essa função deve imprimir uma mensagem "Cachorro inexistente"
     não exista um cachorro com o id passado.
 
-☐  Crie uma função chamada remover
+✔  Crie uma função chamada remover @started(22-07-09 13:00) @done(22-07-10 12:15) @lasted(23h15m3s)
   . Essa função deve remover um cachorro do array e salvar no array de cachorros.
   . Ela deve recber um único parâmetro
     + id  (Id cachorro do cachorro)
